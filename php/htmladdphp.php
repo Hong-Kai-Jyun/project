@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html加入php程式語法</title>
+</head>
+<body>
+  <?php
+  print "Hello World";
+?>
+</body>
+</html>
