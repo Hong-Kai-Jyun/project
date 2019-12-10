@@ -15,9 +15,10 @@
     print "</p>y的加持:".$y."</p>";
     return $y;
   }
-  //別再發動act_y($x);
-  print "</p>什麼加持其實是".$y;
+  //別再發動  act_y($x);
   $y=act_y($x);
+  print "</p>什麼加持其實是".$y;
+  
   print "</p>y的繼承".$y;
   
   define('p', 3.1415926);
