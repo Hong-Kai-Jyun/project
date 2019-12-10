@@ -16,8 +16,8 @@
     return $y;
   }
   act_y($x);
-  echo "</b>";
-  print $y;
+  echo "<b></b>";
+  print "</p>什麼加持其實是"$y;
 ?>
 </body>
 </html>
