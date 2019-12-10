@@ -16,8 +16,12 @@
     return $y;
   }
   act_y($x);
-  echo "<b></b>";
   print "</p>什麼加持其實是".$y;
+  print "y的繼承".$y=act_y($x);
+  
+  define('p', 3.1415926);
+  $pp = 3*3*p;
+  print "</p>圓周率:".$pp;
 ?>
 </body>
 </html>
