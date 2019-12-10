@@ -50,6 +50,9 @@
 
   $duelbox[0][1] = "青眼亞龍";
   echo "</br>".$duelbox[0][1];
+  $lunch[1]=array("廣東粥"=>80,"炸雞排"=>70);
+  echo "</br>".lunch[1];
+
   ?>
 </body>
 </html>
