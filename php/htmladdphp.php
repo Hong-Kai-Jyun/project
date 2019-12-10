@@ -58,7 +58,8 @@
 
 
 
-  if ($duelbox["青眼白龍"] > $duelbox["黑魔導"] ){
+  //if ($duelbox["青眼白龍"] > $duelbox["黑魔導"] ){
+    if ( 3000 > 2500){
      echo "LP:-500 POINT"
   }
   else{
