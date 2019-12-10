@@ -33,6 +33,8 @@
   print $break <=> $w;
   print "</p>潘多拉黑魔導跟黑魔導相比攻擊力差距:";
   print $break <=> $break;
+  print "</p>青眼白龍攻擊力比卡通青眼白龍相比攻擊力差距:". $w <=> $w;
+  print "</p>青眼白龍攻擊力比卡通青眼白龍相比攻擊力差距:".$w<=>$w;
 ?>
 </body>
 </html>
