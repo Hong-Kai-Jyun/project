@@ -17,7 +17,7 @@
   }
   act_y($x);
   echo "<b></b>";
-  print "</p>什麼加持其實是"$y;
+  print "</p>什麼加持其實是".$y;
 ?>
 </body>
 </html>
