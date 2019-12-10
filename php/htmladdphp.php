@@ -44,9 +44,12 @@
 
   $duelbox["青眼白龍"] = 3000;
   $duelbox[1] = 0;
-  echo $duelbox; 
-  echo $duelbox["青眼白龍"];
-  echo $duelbox[1];
-?>
+  echo "</p>".$duelbox; 
+  echo "</p>".$duelbox["青眼白龍"];
+  echo "</p>".$duelbox[1];
+
+  $duelbox[0][1] = "青眼亞龍";
+  echo "</br>".$duelbox[0][1];
+  ?>
 </body>
 </html>
