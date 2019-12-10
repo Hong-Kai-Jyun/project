@@ -27,9 +27,9 @@
 
   $w = 3000;
   $break = 2500;
-  print "青眼白龍攻擊力比黑魔導大:".$w <=> $break;
-  print "黑魔導攻擊力比青眼白龍小:".$break <=> $w;
-  print "潘多拉黑魔導跟黑魔導相比攻擊力差距:".$break <=> $break;
+  print "</p>青眼白龍攻擊力比黑魔導大:".$w <=> $break;
+  print "</p>黑魔導攻擊力比青眼白龍小:".$break <=> $w;
+  print "</p>潘多拉黑魔導跟黑魔導相比攻擊力差距:".$break <=> $break;
 ?>
 </body>
 </html>
