@@ -17,7 +17,7 @@
   }
   act_y($x);
   print "</p>什麼加持其實是".$y;
-  $y=act_y($x)
+  $y=act_y($x);
   print "y的繼承".$y;
   
   define('p', 3.1415926);
