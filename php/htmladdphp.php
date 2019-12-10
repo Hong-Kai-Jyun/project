@@ -45,6 +45,8 @@
   $duelbox["青眼白龍"] = 3000;
   $duelbox[1] = 0;
   echo $duelbox; 
+  echo $duelbox["青眼白龍"];
+  echo $duelbox[1];
 ?>
 </body>
 </html>
