@@ -12,10 +12,10 @@
   function act_y($x)
   {
     $y = $x*2; 
-    print "y的加持:".$y;
+    print "</p>y的加持:".$y."</p>";
     return $y;
   }
-  //act_y($x);
+  //別再發動act_y($x);
   print "</p>什麼加持其實是".$y;
   $y=act_y($x);
   print "</p>y的繼承".$y;
