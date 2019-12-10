@@ -44,6 +44,8 @@
 
   $duelbox["青眼白龍"] = 3000;
   $duelbox[1] = 0;
+
+  $duelbox["黑魔導"] = 3000;
   echo "</p>".$duelbox; 
   echo "</p>".$duelbox["青眼白龍"];
   echo "</p>".$duelbox[1];
@@ -53,6 +55,16 @@
   $lunch[1]=array("廣東粥"=>80,"炸雞排"=>70);
   echo "</br>".$lunch[1];
   echo "</br>".$lunch["廣東粥"];
+
+
+
+  if ($duelbox["青眼白龍"] > $duelbox["黑魔導"] ){
+     echo "LP:-500 POINT"
+  }
+  else{
+     echo "SAVE!";
+      }
+
   ?>
 </body>
 </html>
