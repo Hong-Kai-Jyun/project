@@ -41,6 +41,10 @@
   $p = "</p>青眼白龍攻擊力比卡通青眼白龍相比攻擊力差距:";
   print $p;
   print $w<=>$w;
+
+  $duelbox["青眼白龍"] = 3000;
+  $duelbox[1] = 0;
+  echo $duelbox; 
 ?>
 </body>
 </html>
