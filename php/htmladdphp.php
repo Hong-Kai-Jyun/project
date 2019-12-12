@@ -188,7 +188,7 @@ print "</table>";
     return $total;
 }
 
-echo "總共是：".sum(1,2,3);
+echo "</br>總共是：".sum(1,2,3);
 
 
 ?>
