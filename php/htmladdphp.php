@@ -89,6 +89,18 @@
       echo "</br>SAVE!";
        }
 
+
+  $i = 100;
+  if( $i > 100)
+  {
+      echo "大於100";
+  }elseif( $i < 100){
+      echo "小於100";
+  }else{
+      echo "剛好100";
+  }
+
+
   ?>
 </body>
 </html>
