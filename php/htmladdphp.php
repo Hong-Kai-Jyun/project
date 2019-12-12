@@ -126,6 +126,12 @@
   }print "</br>";
   
 print "<table border=1>";
+print "<tr>";
+for($i=2 ; $i<10 ; $i++)
+{ 
+ print "<th>".$i."的倍數</th>";
+} print "</tr>";
+ print "<tr>";
  for($i=1 ; $i<10 ; $i++)
  { 
   print "<tr>";
