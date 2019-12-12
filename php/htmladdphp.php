@@ -5,6 +5,22 @@
     <title>html加入php程式語法</title>
 </head>
 <body>
+
+  <table>
+         <tr>
+             <th>學生</th>
+             <th>分數</th>
+         </tr>
+         <tr>
+             <td>stell</td>
+             <td>85</td>
+         </tr>
+         <tr>
+             <td>alivc</td>
+             <td>80</td>
+         </tr>
+  </table>
+   
   <?php
   print "Hello World";
   $x = 100;
