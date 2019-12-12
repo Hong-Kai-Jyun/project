@@ -155,6 +155,7 @@ print "</table>";
       $level = intval($i / 10);
       switch ($level){
           case 10:
+            $j = "S";
           case 9:
             $j = "A";
             break;
