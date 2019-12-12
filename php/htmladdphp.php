@@ -124,21 +124,57 @@
     print "*";
     $i--;
   }print "</br>";
-
- for($i=2 ; $i<10 ; $i++)
+print "<table>";
+ for($i=1 ; $i<10 ; $i++)
  { 
-   for($j=1 ; $j<10 ;$j++)
+   for($j=2 ; $j<10 ;$j++)
    {
+     print "<tr>";
     // print "</br>".$j;
      printf("%d*%d=%d \t",$j,$i,($i * $j));
      //print "</br>";
    }
    //print $i;
-   print "</br>";
+   print "</tr>";
 
  }
+print "</table>";
 
 
+<?php
+  // 顯示名字
+  function name(){
+      echo "DODO";
+  }
+
+  // 計算成績等級
+  function score($i) {
+      $j = "F";
+      $level = intval($i / 10);
+      switch ($level){
+          case 10:
+          case 9:
+            $j = "A";
+            break;
+          case 8:
+            $j = "B";
+            break;
+          case 7:
+            $j = "C";
+            break;
+          case 6:
+            $j = "D";
+            break;
+          default:
+            $j = "E";
+      }
+      return $j;
+  }
+
+  echo name();
+  $backscore = score(100);
+  echo "　成績等級：$backscore";
+?>
   ?>
 </body>
 </html>
