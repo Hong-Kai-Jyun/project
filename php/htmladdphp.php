@@ -127,12 +127,14 @@
 print "<table>";
  for($i=1 ; $i<10 ; $i++)
  { 
+  print "<tr>";
    for($j=2 ; $j<10 ;$j++)
    {
-     print "<tr>";
+    print "<td>";
     // print "</br>".$j;
      printf("%d*%d=%d \t",$j,$i,($i * $j));
      //print "</br>";
+     print "</td>";
    }
    //print $i;
    print "</tr>";
