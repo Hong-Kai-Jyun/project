@@ -112,18 +112,29 @@
       echo "打錯字了嗎";
   }
   
-  $start = 0 ;
+
   for ($i = 0 ; $i <=10 ; $i++)
   {
-    print "*";
+    print "*</br>";
     $i+=1;
-  }
+  }   print "</br>";
   $i = 20;
   while( $i >= 1)
   {
-    print "*</br>";
+    print "*";
     $i--;
-  }
+  }print "</br>";
+
+ for($i=1 ; $i<10 ; $i++)
+ { 
+   for($j=2 ; $j<10 ;$j++)
+   {
+     print "</br>".$j;
+   }
+   print $i;
+
+ }
+
 
   ?>
 </body>
