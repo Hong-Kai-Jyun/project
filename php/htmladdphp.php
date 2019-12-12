@@ -130,7 +130,7 @@
    for($j=1 ; $j<10 ;$j++)
    {
     // print "</br>".$j;
-     printf("%d*%d=%d \t",$i,$j,($i * $j));
+     printf("%d*%d=%d \t",$j,$i,($i * $j));
      //print "</br>";
    }
    //print $i;
