@@ -196,7 +196,22 @@ print "</table>";
 
 echo "</br>總共是：".sum(1,2,3);
 
-
+print "<table>";
+function table99($i=2,$j=1){
+  echo "<tr>";
+  if ($j > 9){
+    $i++;
+    $j = 1;
+    echo "</tr>";
+  }
+  if ( $i <= 9 ){
+    printf("<td>%d*%d=%d \t </td>",$i,$j,($i*$j));
+    $j++;
+    table99($i,$j);
+  }
+}
+print "</table>";
+echo table99();
 ?>
 
 </body>
