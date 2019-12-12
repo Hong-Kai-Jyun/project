@@ -131,6 +131,7 @@
    {
     // print "</br>".$j;
      printf("%d*%d=%d \t",$i,$j,($i * $j));
+     print "</br>";
    }
    //print $i;
    print "</br>";
