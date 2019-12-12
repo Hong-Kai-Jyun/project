@@ -124,6 +124,7 @@
     print "*";
     $i--;
   }print "</br>";
+  
 print "<table>";
  for($i=1 ; $i<10 ; $i++)
  { 
@@ -143,7 +144,7 @@ print "<table>";
 print "</table>";
 
 
-<?php
+
   // 顯示名字
   function name(){
       echo "DODO";
