@@ -129,9 +129,11 @@
  { 
    for($j=2 ; $j<10 ;$j++)
    {
-     print "</br>".$j;
+    // print "</br>".$j;
+     printf("%d*%d=%d \t",$i,$j,($i * $j));
    }
-   print $i;
+   //print $i;
+   print "</br>";
 
  }
 
