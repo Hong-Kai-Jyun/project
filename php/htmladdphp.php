@@ -111,6 +111,19 @@
     default:
       echo "打錯字了嗎";
   }
+  
+  $start = 0 ;
+  for ($i = 0 ; $start <=10 ; $i++)
+  {
+    print "*";
+    $i+=$i;
+  }
+  $i = 20;
+  while( $i >= 1)
+  {
+    print "*";
+    $i--;
+  }
 
   ?>
 </body>
