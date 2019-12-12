@@ -127,11 +127,11 @@
 
  for($i=1 ; $i<10 ; $i++)
  { 
-   for($j=2 ; $j<10 ;$j++)
+   for($j=1 ; $j<10 ;$j++)
    {
     // print "</br>".$j;
      printf("%d*%d=%d \t",$i,$j,($i * $j));
-     print "</br>";
+     //print "</br>";
    }
    //print $i;
    print "</br>";
