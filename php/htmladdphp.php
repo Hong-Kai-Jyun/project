@@ -157,6 +157,7 @@ print "</table>";
       switch ($level){
           case 10:
             $j = "S";
+          break;
           case 9:
             $j = "A";
             break;
