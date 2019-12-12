@@ -90,16 +90,27 @@
        }
 
 
-  $i = 100;
-  if( $i > 100)
+  //$i = 100;
+  if( $x > 100)
   {
-      echo "\大於100";
-  }elseif( $i < 100){
-      echo "\小於100";
+      echo "\$x 大於100";
+  }elseif( $x < 100){
+      echo "\$x 小於100";
   }else{
-      echo "\剛好100";
+      echo "\$x 剛好100";
   }
 
+  $fruit = "Apple";
+  switch($fruit){
+    case "apple":
+      echo "這是 apple";
+      break;
+    case "banana":
+      echo "這是 banana";
+      break;
+    default:
+      echo "打錯字了嗎";
+  }
 
   ?>
 </body>
