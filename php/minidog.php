@@ -5,7 +5,7 @@ include "dog2.php";
 class minidog extends dog{
     protected $age;
 
-    public function __construct($name,$color,$style,age){
+    public function __construct($name,$color,$style,$age){
 
         parent::__construct($name,$color,$style);
         $this->age = $age;
