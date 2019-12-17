@@ -12,7 +12,7 @@
      }
  }
 
- $test = new myclass;
+ $test = new mycalss;
  $test->getpara();
  echo "test->x:".$test->x."</br>";
  echo "test->y:".$test->y."</br>";
