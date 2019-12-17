@@ -13,5 +13,5 @@ echo "第二隻狗的名子叫 :".$mydog2->name."</br>";
 echo "牠的顏色是 : ".$mydog2->color."</br>";
 echo "</br>目前".$age."歲</br>";
 echo "牠的品種 : ".$mydog2->style."</br>讓他去~~~~";
-
+$mydog2->dogRun();
 echo $mydog2->dowork()."</br>之後就... ";
