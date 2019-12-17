@@ -6,7 +6,7 @@
     public $style;
 
     public function __construct($name,$color,$style){
-         $this->$name = $name;
+         $this->name = $name;
          $this->color = $color;
          $this->style = $style;
     }
