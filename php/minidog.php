@@ -3,8 +3,8 @@
 include "dog2.php";
 
 class minidog extends dog{
-     protected $age;
-     //public $age;
+     //protected $age;
+     public $age;
     public function __construct($name,$color,$style,$age){
 
         parent::__construct($name,$color,$style);
