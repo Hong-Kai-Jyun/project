@@ -1,8 +1,7 @@
 <?php
 include "dog2.php";
 
-$myDog = new dog("柴犬","棕色","台灣犬");
+$myDog = new dog("月月","棕色","柴犬");
 $myDog->dogRun();
 $myDog->dogBark();
-$myDog->__destruct();
-?>
+echo "狗狗叫 : ".$myDog->$name."</br>";
