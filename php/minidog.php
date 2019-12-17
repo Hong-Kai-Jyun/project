@@ -1,7 +1,7 @@
 <?php
 
 include "dog2.php";
-//include "dogtool.php";
+include "dogtool.php";
 class minidog extends dog{
      protected $age;
      //public $age;
