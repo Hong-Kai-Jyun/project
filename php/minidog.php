@@ -16,9 +16,10 @@ class minidog extends dog{
     }
 
     public function dogRun(){
-        echo "狗狗搖晃...";
+        echo "狗狗搖晃..."; 
+        parent::dogRun();
     }
-    parent::dogRun();
+   
 
     public function __destruct(){
         echo "吃飽就睡了...(汗";
