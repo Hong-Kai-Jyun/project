@@ -30,12 +30,12 @@ class minidog extends dog{
         echo "吃飽就睡了...(汗";
     }
 }
-
+/*
 class minidog2 implements dogtool{
 
     public function seach(){
         echo "搜尋狗狗中...";
     }
 }
-
+*/
 ?>
