@@ -2,9 +2,8 @@
 
 include "dog2.php";
 include "dogtool.php";
-class minidog extends dog implements dogtool{
+class minidog extends dog{
      protected $age;
-     protected $nano;
      //public $age;
     public function __construct($name,$color,$style,$age){
 
@@ -16,10 +15,6 @@ class minidog extends dog implements dogtool{
         return $this->age;
     }
 
-    public function seach(){
-        echo "搜尋狗狗中...";
-        return $this->nano;
-    }
 
     public function dowork(){
         echo "吃~~~~~~~";
@@ -33,6 +28,13 @@ class minidog extends dog implements dogtool{
 
     public function __destruct(){
         echo "吃飽就睡了...(汗";
+    }
+}
+
+class minidog2 implements dogtool{
+
+    public function seach(){
+        echo "搜尋狗狗中...";
     }
 }
 
