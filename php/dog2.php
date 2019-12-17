@@ -10,7 +10,7 @@
          $this->color = $color;
          $this->style = $style;
     }
-    echo $name ;
+   // echo $name ;
 
     public function dogRun(){
         echo "狗狗跑步中...";
