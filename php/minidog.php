@@ -7,7 +7,7 @@ class minidog extends dog{
 
     public function __construct($name,$color,$style,age){
 
-        parent::_-construct($name,$color,$style);
+        parent::__construct($name,$color,$style);
         $this->age = $age;
     }
 
