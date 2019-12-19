@@ -15,8 +15,8 @@ class girl extends human{
       echo '移動';
   }
 }
-class human{
-  public function actionMove(human) $obj)
+class action{
+  public function actionMove(human $obj)
   {
       $obj->move();
   }
@@ -24,7 +24,7 @@ class human{
 
 $boy = new boy();
 $girl = new girl();
-$action = new Action();
+$action = new action();
 $action->actionMove($boy);
 $action->actionMove($girl);
 ?>
