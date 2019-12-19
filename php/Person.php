@@ -5,7 +5,7 @@
      public function __set($name, $value){
 
       if(isset($this->$name)){
-           return $thsi->$name = $value;
+           return $this->$name = $value;
       } else {
           return null;
       }
@@ -28,7 +28,7 @@
 $person = new Person();
 $person->name = 'PHP';
 echo $person->name.PHP_EOL;
-echo $person->sex.PHP_EOL;
+echo $person->yell.PHP_EOL;
 echo isset($person->address);
 unset($person->name);
 ?>
