@@ -16,7 +16,7 @@ class girl extends human{
   }
 }
 class human{
-  public function actionMove(Animal $obj)
+  public function actionMove(human) $obj)
   {
       $obj->move();
   }
