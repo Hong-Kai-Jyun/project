@@ -19,6 +19,6 @@ $circle = new Shape();
 echo $circle->area(3);
 $rect = new Shape();
 echo $rect->area(8,6);
-echo Sharp::__callStatic()[1];
+echo Shape::hello()[1];
 
 ?>
