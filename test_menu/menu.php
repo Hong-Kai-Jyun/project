@@ -17,8 +17,8 @@
    <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
    <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>
    <li><a data-toggle="tab" href="#menu2">仙草系列</a></li>
-   <li class="dropdown navbar-right"><a class="dropdown-toggle " data-toggle="dropdown" href="#">Dropdown<span class="caret"></span></a>
-       <ul class="dropdown-menu">
+   <li class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="#">Dropdown<span class="caret"></span></a>
+       <ul class="dropdown-menu navbar-right">
            <li><a href="#">First</a></li>
            <li><a href="#">Second</a></li>
            <li><a href="#">Third</a></li>
