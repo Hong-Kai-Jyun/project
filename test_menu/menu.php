@@ -76,12 +76,12 @@
        <p>特濃麥茶牛奶</p>
    </div>
   </div>
-  <?php
+ 
+ </div>
+ <?php
 include 'test_number.php';
 Number();//鍵盤
 ?>
- </div>
-
 
 
 
