@@ -11,8 +11,8 @@
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script><!--匯入bootstrap javascript-->
 
  <style type="text/css">
-			body{
-				height: 300vh;
+		    .a{
+				height: 50vh;
 			}
  </style>
 </head>
@@ -41,7 +41,7 @@
     
   </ul>
 
-  <div class="tab-content">
+  <div class="tab-content a" >
    <div id="home" class="tab-pane fade in active">
        <button>紅茶冰</button>
        <button>檸檬紅茶</button>
