@@ -79,7 +79,7 @@
 
  </div>
 
- <div class="nav navbar-default navbar-fixed-bottom">
+<div>
 <?php
 include 'test_number.php';
 Number();//鍵盤
