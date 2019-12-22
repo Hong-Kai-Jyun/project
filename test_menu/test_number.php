@@ -17,7 +17,8 @@ for($j=1 ; $j<=$i ; $j++){
     echo "<button>".$Number[$j]."</button>" ;
 //　echo '第 '.$j.' 圈 : '.$Number[$j] ;
 //echo $Number[$j]/4;
+echo '$j:' .$j;/*
  if($j / 4 = 0)
    echo '<br>';
-}
+}*/
 ?>
