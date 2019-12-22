@@ -12,7 +12,7 @@
 
  <style type="text/css">
 		    .a{
-				height: 50vh;
+				height: 25vh;
 			}
  </style>
 </head>
