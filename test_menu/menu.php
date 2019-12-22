@@ -19,6 +19,8 @@
 </head>
 
 <body>
+<table>
+    <td>    
 <div class="nav navbar-default navbar-fixed-bottom" style="width:30%">
   <ul class="nav nav-tabs">
     <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
@@ -34,7 +36,7 @@
            <li><a href="#">Third</a></li>
         </ul>
        </li>
-
+<div class="nav navbar-default navbar-fixed-bottom" style="width:30%">
        <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
        <li><a data-toggle="tab" href="#">Log out</a></li>
        <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
@@ -76,14 +78,16 @@
        <p>特濃麥茶牛奶</p>
    </div>
   </div>
+
+ </div>
+    </td>
+    <td>
 <div class="nav navbar-default navbar-fixed-bottom" style="width:70%">
  <?php
 include 'test_number.php';
 Number();//鍵盤
 ?>
 </div>
- </div>
-
-
-
+        </td>
+</table>
  </body>
