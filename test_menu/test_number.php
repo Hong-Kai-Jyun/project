@@ -25,5 +25,5 @@ echo '$j%4='.($j+1)%4;*/
      echo '<br>';
     }
 }
-Number();
+//Number();
 ?>
