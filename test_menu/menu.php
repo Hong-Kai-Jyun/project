@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<?php 
+
 <html lang="en">
 <head>
  <title>Bootstrap Navigation Bar</title>
@@ -10,7 +10,7 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>//匯入jQuery
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>//匯入bootstrap javascript
 </head>
-
+<?php 
 <body>
  <ul class="nav nav-tabs">
  <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
