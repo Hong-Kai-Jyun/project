@@ -19,9 +19,9 @@
 </head>
 
 <body>
-<table>
-    <td>    
-<div class="nav navbar-default navbar-fixed-bottom" style="width:30%">
+<div class="nav navbar-default navbar-fixed-bottom container"><!-- style="width:30%"-->
+ <div class="col-xs-6"><!--左邊菜單開始的div-->
+
   <ul class="nav nav-tabs">
     <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
     <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>
@@ -35,8 +35,8 @@
            <li><a href="#">Second</a></li>
            <li><a href="#">Third</a></li>
         </ul>
-       </li>
-<div class="nav navbar-default navbar-fixed-bottom" style="width:30%">
+      </li>
+
        <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
        <li><a data-toggle="tab" href="#">Log out</a></li>
        <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
@@ -45,7 +45,7 @@
   </ul>
 
   <div class="tab-content a" >
-   <div id="home" class="tab-pane fade in active">
+     <div id="home" class="tab-pane fade in active">
        <button>紅茶冰</button>
        <button>檸檬紅茶</button>
        <p>金桔紅茶</p>
@@ -54,9 +54,9 @@
        <p>紅茶牛奶</p>
        <p>特濃紅茶牛奶</p>
        <p>特濃紅茶豆漿</p>
-   </div>
+     </div>
 
-   <div id="menu1" class="tab-pane fade">
+     <div id="menu1" class="tab-pane fade">
        <p>冬瓜冰</p>
        <p>冬瓜紅茶</p>
        <p>檸檬冬瓜</p>
@@ -66,9 +66,9 @@
        <p>冬瓜牛奶</p>
        <p>特濃冬瓜牛奶</p>
        <p>特濃冬瓜豆漿</p>
-   </div>
+     </div>
 
-   <div id="menu2" class="tab-pane fade">
+     <div id="menu2" class="tab-pane fade">
        <p>麥仔茶</p>
        <p>麥香紅茶</p>
        <p>麥茶冬瓜</p>
@@ -76,18 +76,19 @@
        <p>麥茶牛奶</p>
        <p>特濃麥茶豆漿</p>
        <p>特濃麥茶牛奶</p>
-   </div>
+     </div>
   </div>
-
- </div>
-    </td>
-    <td>
-<div class="nav navbar-default navbar-fixed-bottom" style="width:70%">
- <?php
-include 'test_number.php';
-Number();//鍵盤
-?>
+  
+ </div><!--左邊菜單結束的div-->
+ <div class="col-xs-6"><!--右邊鍵盤開始的div-->
+   <?php
+     include 'test_number.php';
+     Number();//鍵盤
+   ?>
+ </div> <!--右邊鍵盤結束的div-->
 </div>
-        </td>
-</table>
+
+
+
+
  </body>
