@@ -1,4 +1,6 @@
-<?php
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
  <title>Bootstrap Navigation Bar</title>
  <meta charset="utf-8">
@@ -55,4 +57,3 @@
  </div>
  </div>
  </body>
-?>
