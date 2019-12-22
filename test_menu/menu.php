@@ -28,7 +28,7 @@
  <div class="tab-content">
  <div id="home" class="tab-pane fade in active">
      <button>紅茶冰</button>
-     <p>檸檬紅茶</p>
+     <button>檸檬紅茶</button>
      <p>金桔紅茶</p>
      <p>紅茶豆漿</p>
      <p>紅茶多多</p>
