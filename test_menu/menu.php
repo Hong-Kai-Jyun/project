@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<?php 
 <html lang="en">
 <head>
  <title>Bootstrap Navigation Bar</title>
@@ -57,3 +58,4 @@
  </div>
  </div>
  </body>
+ ?>
