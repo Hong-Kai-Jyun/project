@@ -14,26 +14,28 @@
 <body>
 <div class="nav navbar-default navbar-fixed-bottom">
   <ul class="nav nav-tabs">
-   <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
-   <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>
-   <li><a data-toggle="tab" href="#menu2">仙草系列</a></li>
+    <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
+    <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>
+    <li><a data-toggle="tab" href="#menu2">仙草系列</a></li>
 
 
-  <ul class="nav navbar-nav navbar-right">
-   <li class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="#">Dropdown<span class="caret"></span></a>
-       <ul class="dropdown-menu">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="#">Dropdown<span class="caret"></span></a>
+        <ul class="dropdown-menu">
            <li><a href="#">First</a></li>
            <li><a href="#">Second</a></li>
            <li><a href="#">Third</a></li>
-       </ul>
-   </li>
+        </ul>
+       </li>
 
-    <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
-    <li><a data-toggle="tab" href="#">Log out</a></li>
-    <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+       <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+       <li><a data-toggle="tab" href="#">Log out</a></li>
+       <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+    </ul>
+
   </ul>
-</ul>
-  <div class="tab-content">
+
+  <footer class="tab-content">
    <div id="home" class="tab-pane fade in active">
        <button>紅茶冰</button>
        <button>檸檬紅茶</button>
@@ -66,7 +68,7 @@
        <p>特濃麥茶豆漿</p>
        <p>特濃麥茶牛奶</p>
    </div>
-  </div>
+  </footer>
 
  </div>
 
