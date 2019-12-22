@@ -78,11 +78,12 @@
   </div>
  
  </div>
+ <div class="nav navbar-default navbar-fixed-bottom" style="width:70%">
  <?php
 include 'test_number.php';
 Number();//鍵盤
 ?>
-
+</div>
 
 
  </body>
