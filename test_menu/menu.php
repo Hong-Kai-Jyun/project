@@ -9,6 +9,12 @@
  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"><!--匯入bootstrap-->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><!--匯入jQuery-->
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script><!--匯入bootstrap javascript-->
+
+ <style type="text/css">
+			body{
+				height: 300vh;
+			}
+ </style>
 </head>
 
 <body>
@@ -32,10 +38,10 @@
        <li><a data-toggle="tab" href="#">Log out</a></li>
        <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
     </ul>
-
+    
   </ul>
 
-  <footer class="tab-content">
+  <div class="tab-content">
    <div id="home" class="tab-pane fade in active">
        <button>紅茶冰</button>
        <button>檸檬紅茶</button>
@@ -68,7 +74,7 @@
        <p>特濃麥茶豆漿</p>
        <p>特濃麥茶牛奶</p>
    </div>
-  </footer>
+  </div>
 
  </div>
 
