@@ -11,7 +11,7 @@
 </body>
 </html>
 <?php
-public function Number(){
+function Number(){
   $Number=array('1','2','3','+','4','5','6','-','7','8','9','*','清除','0','x');
   $i=count($Number);
   for($j=0 ; $j<$i ; $j++){
