@@ -19,6 +19,6 @@ for($j=1 ; $j<=$i ; $j++){
 //echo $Number[$j]/4;
 echo '$j:' .$j;/*
  if($j / 4 = 0)
-   echo '<br>';
-}*/
+   echo '<br>';*/
+}
 ?>
