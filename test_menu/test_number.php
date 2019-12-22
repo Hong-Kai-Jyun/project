@@ -18,7 +18,7 @@ for($j=0 ; $j<=$i ; $j++){
 //　echo '第 '.$j.' 圈 : '.$Number[$j] ;
 //echo $Number[$j]/4;
 echo '$j:' .$j;
-echo '$j/4='.$j/4;
+echo '$j%4='.$j%4;
 /*
  if($j / 4 = 0)
    echo '<br>';*/
