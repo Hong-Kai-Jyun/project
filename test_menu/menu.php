@@ -76,7 +76,10 @@
        <p>特濃麥茶牛奶</p>
    </div>
   </div>
-
+<?php
+include 'test_number.php';
+Number();
+?>
  </div>
 
  </body>
