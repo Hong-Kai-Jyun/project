@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<div class="nav navbar-default navbar-fixed-bottom">
+<div class="nav navbar-default navbar-fixed-bottom" style="width:30%">
   <ul class="nav nav-tabs">
     <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
     <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>
