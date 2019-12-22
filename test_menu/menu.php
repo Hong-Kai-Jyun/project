@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<div class="nav navbar-default navbar-fixed-bottom container"><!-- style="width:30%"-->
+<div class="nav navbar-default navbar-fixed-bottom "><!-- style="width:30%"-->
  <div class="col-xs-6"><!--左邊菜單開始的div-->
 
   <ul class="nav nav-tabs">
