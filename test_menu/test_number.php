@@ -4,7 +4,7 @@ $i=count($Number);
 for($j=0 ; $j<$i ; $j++){
     echo '第 '.$j.' 圈 : '.$Number[$j] ;
 //　echo '第 '.$j.' 圈 : '.$Number[$j] ;
-echo $Number[$j]/4;
+//echo $Number[$j]/4;
  if($Number[$j] / 4 == 0)
    echo '<br>';
 }
