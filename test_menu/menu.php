@@ -76,14 +76,14 @@
        <p>特濃麥茶牛奶</p>
    </div>
   </div>
- 
- </div>
- <div class="nav navbar-default navbar-fixed-bottom" style="width:70%">
+<div class="nav navbar-default navbar-fixed-bottom" style="width:70%">
  <?php
 include 'test_number.php';
 Number();//鍵盤
 ?>
 </div>
+ </div>
+
 
 
  </body>
