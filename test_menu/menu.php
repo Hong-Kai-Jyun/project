@@ -26,7 +26,7 @@
     <li><a data-toggle="tab" href="#home">紅茶系列</a></li>
     <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>
     <li><a data-toggle="tab" href="#menu2">仙草系列</a></li>
-<?php echo <li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li> ?>
+<?php  echo '<li><a data-toggle="tab" href="#menu1">冬瓜系列</a></li>' ;?>
 
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="#">Dropdown<span class="caret"></span></a>
