@@ -1,4 +1,5 @@
 <?php
+    echo "classname:".$className."</br>";
 function __autoload($className){    
   $file_name = __DIR__ . "/Classes/" . $className . ".php";
   echo "file_name:".$file_name."</br>";
