@@ -1,8 +1,9 @@
 <?php
 
 function __autoload($classname){
-    $file_name = __DIR__ . "/classes/" . $classname . ".php";
     echo "classname:".$classname;
+    $file_name = __DIR__ . "/Classes/" . $classname . ".php";
+
     echo "file_name:".$file_name;
 
  /*   if(is_readable($file_name)){
