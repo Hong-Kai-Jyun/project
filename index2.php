@@ -7,5 +7,5 @@ $member->getMemberList();*/
 
 $member = new MEMBER();
 $member->getMEMBERLIST();
-
+$member->getMemberList();
 ?>
