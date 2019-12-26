@@ -1,14 +1,8 @@
 <?php
-
-function __autoload($classname){
-    echo "classname:".$classname;
-    $file_name = __DIR__ . "/Classes/" . $classname . ".php";
-
-    echo "file_name:".$file_name;
-
- /*   if(is_readable($file_name)){
-         require $file_name;
-    }*/
+function __autoload($className){
+  $filename = __DIR__ . "/classes/" . $className . ".php";
+  if (is_readable($filename)){
+    require $filename;
+  }
 }
-
 ?>

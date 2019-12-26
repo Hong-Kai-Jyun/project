@@ -1,9 +1,8 @@
 <?php
-
-  class MEMBER{
-      public function getMEMBERLIST(){
-          echo "好吃好吃!";
-      }
+//這是 Classes/Member.php
+class Member{
+  public function getMemberList(){
+    echo "print member list...<br>";
   }
-
+}
 ?>
