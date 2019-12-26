@@ -8,4 +8,11 @@ function __autoload($className){
     require $filename;
   }
 }
+
+function __autoload($classname){    
+  echo "className:".$className."</br>";
+  $file_name = __DIR__ . "/Classes/" . $classname . ".php";
+    echo "file_name:".$file_name;
+    echo "classname:".$classname;
+}
 ?>
