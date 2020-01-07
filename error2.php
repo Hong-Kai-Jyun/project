@@ -18,5 +18,5 @@ function process($denominator) {
                            echo "UNKNOWN EXCEPTION!";
                            }
 }
-process(0);
+process(-5);
 ?>
