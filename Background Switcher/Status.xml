@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<backgroundswitchersettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <last_switch>2020-01-14T20:29:27.9978807+08:00</last_switch>
+  <paused>false</paused>
+  <last_checked_for_update>2017-06-29T00:00:00.0000000+08:00</last_checked_for_update>
+  <new_version_available>false</new_version_available>
+  <BackgroundSelectorDialog_W>0</BackgroundSelectorDialog_W>
+  <BackgroundSelectorDialog_H>0</BackgroundSelectorDialog_H>
+  <ThumbnailSelectorDialog_W>0</ThumbnailSelectorDialog_W>
+  <ThumbnailSelectorDialog_H>0</ThumbnailSelectorDialog_H>
+  <PictureBrowserDialog_W>0</PictureBrowserDialog_W>
+  <PictureBrowserDialog_H>0</PictureBrowserDialog_H>
+  <calendar_last_drawn>0001-01-01T00:00:00.0000000+08:00</calendar_last_drawn>
+  <flickr_user_cache_last_cleared>2020-01-13T18:28:29.8064409+08:00</flickr_user_cache_last_cleared>
+  <last_cleaned_download_folder>2017-06-29T00:00:00.0000000+08:00</last_cleaned_download_folder>
+  <mode>UseFlickr</mode>
+  <filter>None</filter>
+  <ip_last_checked>0001-01-01T00:00:00.0000000+08:00</ip_last_checked>
+  <current_pictures>
+    <BackgroundSwitcherSettingsPicture position="overscale" Info="wallpaper_slash_1440x900_1123&#xD;&#xA;By: 聯成電腦&#xD;&#xA;2019年6月19日" Name="wallpaper_slash_1440x900_1123" Identifier="http://www.flickr.com/photos/78935405@N03/48090727176/">http://www.flickr.com/photos/78935405@N03/48090727176/</BackgroundSwitcherSettingsPicture>
+  </current_pictures>
+  <previous_pictures>
+    <BackgroundSwitcherSettingsPicture position="overscale" Info="wallpaper_Python_1440x900_1227&#xD;&#xA;By: 聯成電腦&#xD;&#xA;2019年12月5日" Name="wallpaper_Python_1440x900_1227" Identifier="http://www.flickr.com/photos/78935405@N03/49172565247/">http://www.flickr.com/photos/78935405@N03/49172565247/</BackgroundSwitcherSettingsPicture>
+  </previous_pictures>
+  <SettingsDialogSize>
+    <Width>618</Width>
+    <Height>448</Height>
+  </SettingsDialogSize>
+</backgroundswitchersettings>
