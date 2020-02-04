@@ -4,3 +4,5 @@ http://justericgg.logdown.com/posts/196891-php-series-autoload
 https://vector.cool/php-pathinfo-get-dirname-basename-extension-filename/
 
 john's Background Switcher
+
+https://stackoverflow.com/questions/34673627/sqlstatehy000-2002-permission-denied
