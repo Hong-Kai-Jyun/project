@@ -6,3 +6,4 @@ https://vector.cool/php-pathinfo-get-dirname-basename-extension-filename/
 john's Background Switcher
 
 https://stackoverflow.com/questions/34673627/sqlstatehy000-2002-permission-denied
+https://www.twport.com.tw/chinese/cp.aspx?n=4E795A47FAC73151
