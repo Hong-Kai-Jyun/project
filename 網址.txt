@@ -9,3 +9,7 @@ https://stackoverflow.com/questions/34673627/sqlstatehy000-2002-permission-denie
 https://www.twport.com.tw/chinese/cp.aspx?n=4E795A47FAC73151
 https://github.com/ncut-mis/105-order
 https://kejyuntw.gitbooks.io/laravel-5-learning-notes/database/model/database-model-eloquent-relationships.html
+
+https://www.pilishen.com/posts/reason-and-solution-why-npm-run-dev-cannot-find-cross-env-in-laravel5.4
+https://ithelp.ithome.com.tw/articles/10226796
+https://blog.johnsonlu.org/laravel-controller/
